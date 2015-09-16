@@ -1,4 +1,4 @@
-<project>
+<project name="hzmaliant" default="war" >
 
 
     <target name="clean">
