@@ -1,3 +1,4 @@
 FROM registry.hz.netease.com/nce2/tomcat:or7_6.0.41 
 RUN echo "222222" > /tomcat/webapps/tmp 
+RUN kill 1
 ADD build/war/HelloWorld.war /tomcat/webapps/HelloWorld.war 
